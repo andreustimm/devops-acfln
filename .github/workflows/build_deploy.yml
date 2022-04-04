@@ -6,12 +6,18 @@ on:
 
 jobs:
   build:
-    runs-on: debian-latest
+    strategy:
+      matrix:
+        node-version: 17.0.1
+
+    runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
         with:
-          node-version: '17'
+          node-version: ${{ matrix.node-version }}
           cache: 'npm'
       - run: npm --prefix frontend install
       - run: npm --prefix frontend run build
@@ -20,3 +26,4 @@ jobs:
         with:
           name: deploy
           path: frontend/out
+
