@@ -1,0 +1,13 @@
+---
+- name: Testando Configuração do Ansible
+  hosts: localhost
+
+  tasks:
+    - name: Testando Ping
+      ping:
+      register: resultado
+
+    - name: Resultado:
+      debug:
+        msg: '{{ resultado }}'
+
