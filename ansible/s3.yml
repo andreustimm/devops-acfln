@@ -5,7 +5,7 @@
   tasks:
     - name: Bucket S3
       amazon.aws.s3_bucket:
-        name: devops-andreus
+        name: devops-acfln
         state: present
 
     - name: Copiando Arquivos
