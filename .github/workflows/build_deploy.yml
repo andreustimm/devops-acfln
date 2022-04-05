@@ -40,8 +40,6 @@ jobs:
         with:
           python-version: '3.x'
       - name: Configurando Python
-        with:
-          name: ansible
         run: |
           python3 -m venv py3
           source py3/bin/activate
