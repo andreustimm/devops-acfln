@@ -56,8 +56,6 @@ jobs:
           name: deploy
           path: frontend/out
       - name: Enviando Arquivos
-        with:
-          name: ansible
         run: |
           source py3/bin/activate
           ansible-playbook -vvvv ansible/s3.yml
