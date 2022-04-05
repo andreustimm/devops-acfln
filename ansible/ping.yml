@@ -7,7 +7,7 @@
       ping:
       register: resultado
 
-    - name: Resultado:
+    - name: Resultado
       debug:
         msg: '{{ resultado }}'
 
