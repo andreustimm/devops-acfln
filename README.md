@@ -1,6 +1,7 @@
 # Projeto Final - Automação e Orquestração Pucminas
 
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=andreustimm_devops-acfln&metric=bugs)](https://sonarcloud.io/summary/new_code?id=andreustimm_devops-acfln)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=andreustimm_devops-acfln&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=andreustimm_devops-acfln)
 
 ## Alunos
 
