@@ -1,5 +1,7 @@
 # Projeto Final - Automação e Orquestração Pucminas
 
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=andreustimm_devops-acfln&metric=bugs)](https://sonarcloud.io/summary/new_code?id=andreustimm_devops-acfln)
+
 ## Alunos
 
 - Andreus Jartã Timm
