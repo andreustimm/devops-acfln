@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function IndexPage() {
+export default function Index() {
   return (
     <div>
       Hello World.{' '}
