@@ -28,7 +28,7 @@
 
 Links para o ambiente do [Sonar Cloud](https://sonarcloud.io/project/overview?id=andreustimm_devops-acfln)
 
-### Comandos
+### Comandos para desenvolvimento
 
 ```
 We suggest that you begin by typing:
