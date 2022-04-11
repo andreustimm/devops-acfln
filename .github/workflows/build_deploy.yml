@@ -11,13 +11,14 @@ jobs:
       - name: Checkout Actions
         uses: actions/checkout@v2
       - id: step-caller
-        uses: "./.github/action/random_number"
+        uses: "./.github/actions/random_number"
         with:
           the-caller: 'Myself'
       - run: echo random-number ${{ steps.step-caller.outputs.random-number }}
         shell: bash
 
   build:
+    if: "contains(github.event.head_commit.message, '[pipeline]')"
     strategy:
       matrix:
         node-version: [v16, v17]
