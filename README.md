@@ -28,6 +28,10 @@
 
 Links para o ambiente do [Sonar Cloud](https://sonarcloud.io/project/overview?id=andreustimm_devops-acfln)
 
+### Frontend
+
+Frontend desenvolvido com Next.js (React)
+
 ### Comandos para desenvolvimento
 
 ```
